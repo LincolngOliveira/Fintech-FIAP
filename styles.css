@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.option-card {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.option-card:hover {
+  transform: scale(1.05);
+  background-color: #faf8fa;
+}
